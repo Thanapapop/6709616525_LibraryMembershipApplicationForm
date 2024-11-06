@@ -11,8 +11,10 @@
     <form>
         <fieldset>
         <legend>Personal Information</legend><br>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
+        <label for="nameT">Name (TH):</label>
+        <input type="text" id="nameT" name="nameT" pattern="^[ก-๙\s]+$" title="กรุณากรอกเฉพาะตัวอักษรภาษาไทย" placeholder="Name in Thai" required><br><br>
+        <label for="nameE">Name (EN):</label>
+        <input type="text" id="nameE" name="nameE" pattern="^[A-Za-z]+$" title="Please type your name in english" placeholder="Name in English" required><br><br>
         <label for="gender">Gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
