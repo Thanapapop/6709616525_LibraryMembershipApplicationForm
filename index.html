@@ -10,7 +10,7 @@
     <h1>Library membership application form</h1>
     <form>
         <fieldset>
-        <legend>Personal Information</legend><br>
+        <legend></legend><br>
         <label for="nameT">Name (TH):</label>
         <input type="text" id="nameT" name="nameT" pattern="^[ก-ฮะ์-\s]+$" title="กรุณากรอกเฉพาะตัวอักษรภาษาไทย" placeholder="Name in Thai" required><br><br>
         <label for="nameE">Name (EN):</label>
@@ -22,6 +22,17 @@
         <label for="female">Female</label><br><br>
         <label for="stid">Student ID:</label>
         <input type="number" id="stid" name="stid" pattern="^[0-9]+$" title="Please type your student ID." placeholder="Please type your student ID." minlength="10" maxlength="10"><br><br>
+        <label for="faculty">Faculty</label>
+        <select name="faculty" id="faculty" required>
+          <option value="sci">Science and Technology</option>
+          <option value="Doctor">Doctor of medicine</option>
+          <option value="Nurse">Nursing Science</option>
+          <option value="Laws">Laws programme </option>
+          <option value="Business">Business school</option>
+          <option value="Economic">Economic school</option>
+          <option value="Engineer">Engineer school</option>
+          <option value="Journalism">Journalism and Mass Communication</option>
+        </select><br><br>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
         <label for="birthday">Birthday:</label>
