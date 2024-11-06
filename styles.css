@@ -26,3 +26,7 @@ h1{
 input{
     font-size: clamp(5px,3.5vw,20px);
 }
+
+span{
+    color: red;
+}

@@ -11,18 +11,18 @@
     <form>
         <fieldset>
         <legend></legend><br>
-        <label for="nameT">Name (TH):</label>
+        <label for="nameT">Name (TH)<span>*</span>:</label>
         <input type="text" id="nameT" name="nameT" pattern="^[ก-ฮะ์-\s]+$" title="กรุณากรอกเฉพาะตัวอักษรภาษาไทย" placeholder="Name in Thai" required><br><br>
-        <label for="nameE">Name (EN):</label>
+        <label for="nameE">Name (EN)<span>*</span>:</label>
         <input type="text" id="nameE" name="nameE" pattern="^[A-Za-z]+$" title="Please type your name in english" placeholder="Name in English" required><br><br>
-        <label for="gender">Gender:</label>
+        <label for="gender">Gender<span>*</span>:</label>
         <input type="radio" id="male" name="gender" value="male" required>
         <label for="male">Male</label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br><br>
-        <label for="stid">Student ID:</label>
+        <label for="stid">Student ID<span>*</span>:</label>
         <input type="text" id="stid" name="stid" pattern="^[0-9]+" title="Please type your student ID." placeholder="Student ID." minlength="10" maxlength="10"><br><br>
-        <label for="faculty">Faculty</label>
+        <label for="faculty">Faculty<span>*</span>:</label>
         <select name="faculty" id="faculty" required>
           <option value="" disabled selected>---Select a faculty---</option>
           <option value="sci">Science and Technology</option>
@@ -34,11 +34,11 @@
           <option value="Engineer">Engineer school</option>
           <option value="Journalism">Journalism and Mass Communication</option>
         </select><br><br>
-        <label for="email">Email:</label>
+        <label for="email">Email<span>*</span>:</label>
         <input type="email" id="email" name="email" required><br><br>
-        <label for="birthday">Birthday:</label>
+        <label for="birthday">Birthday<span>*</span>:</label>
         <input type="date" id="birthday" name="birthday" required><br><br>
-        <label for="book">Interested book type:</label><br>
+        <label for="book">Interested book type<span>*</span>:</label><br>
         <input type="checkbox" id="book1" name="book1">
         <label for="book1"> Fiction</label><br>
         <input type="checkbox" id="book2" name="book2">
