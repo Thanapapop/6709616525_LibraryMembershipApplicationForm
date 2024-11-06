@@ -17,14 +17,14 @@ form{
 }
 
 h1{
-    font-size: clamp(16px,3.5vw,120px);
+    font-size: clamp(36px,3.5vw,120px);
     text-shadow: black 4px;
     color: white;
     text-align: center;
 }
 
 input{
-    font-size: clamp(5px,3.5vw,20px);
+    font-size: clamp(2px,3.5vw,16px);
 }
 
 span{
