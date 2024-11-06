@@ -30,3 +30,15 @@ input{
 span{
     color: red;
 }
+
+input[type=submit] {
+    background: #29b457;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    font-size: 16px;
+    height: 40px;
+    width: 80px;
+}
