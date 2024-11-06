@@ -23,11 +23,28 @@
         <label for="stid">Student ID:</label>
         <input type="number" id="stid" name="stid" pattern="^[0-9]+$" title="Please type your student ID." placeholder="Please type your student ID." minlength="10" maxlength="10"><br><br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email" required><br><br>
         <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday"><br><br>
-        <label for="book">Interested book types:</label>
-        <input type="" id="book" name="book"><br><br>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+        <label for="book">Interested book type:</label><br>
+        <input type="checkbox" id="book1" name="book1">
+        <label for="book1"> Fiction</label><br>
+        <input type="checkbox" id="book2" name="book2">
+        <label for="book2"> Journals</label><br>
+        <input type="checkbox" id="book3" name="book3">
+        <label for="book3"> Biography</label><br>
+        <input type="checkbox" id="book4" name="book4">
+        <label for="book4"> History</label><br>
+        <input type="checkbox" id="book5" name="book5">
+        <label for="book5"> Novel/Drama</label><br>
+        <input type="checkbox" id="book6" name="book6">
+        <label for="book6"> Comic</label><br>
+        <input type="checkbox" id="book7" name="book7">
+        <label for="book7"> Poetry</label><br>
+        <input type="checkbox" id="book8" name="book8">
+        <label for="book8"> Non-fiction</label><br>
+        <input type="checkbox" id="book9" name="book9">
+        <label for="book9"> Others</label><input type="text" id="others"><br><br>
         <label for="newsemail">Subscribe for notification on email:</label>
         <input type="checkbox" id="newsemail" name="newsemail" value="yes"><br><br>
         </fieldset>
