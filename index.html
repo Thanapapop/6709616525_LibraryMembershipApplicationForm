@@ -21,9 +21,10 @@
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br><br>
         <label for="stid">Student ID:</label>
-        <input type="number" id="stid" name="stid" pattern="^[0-9]+$" title="Please type your student ID." placeholder="Please type your student ID." minlength="10" maxlength="10"><br><br>
+        <input type="text" id="stid" name="stid" pattern="^[0-9]+" title="Please type your student ID." placeholder="Student ID." minlength="10" maxlength="10"><br><br>
         <label for="faculty">Faculty</label>
         <select name="faculty" id="faculty" required>
+          <option value="" disabled selected>---Select a faculty---</option>
           <option value="sci">Science and Technology</option>
           <option value="Doctor">Doctor of medicine</option>
           <option value="Nurse">Nursing Science</option>
