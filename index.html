@@ -15,13 +15,13 @@
         <input type="text" id="nameT" name="nameT" pattern="^[ก-๙\s]+$" title="กรุณากรอกเฉพาะตัวอักษรภาษาไทย" placeholder="Name in Thai" required><br><br>
         <label for="nameE">Name (EN):</label>
         <input type="text" id="nameE" name="nameE" pattern="^[A-Za-z]+$" title="Please type your name in english" placeholder="Name in English" required><br><br>
-        <label for="gender">Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br><br>
         <label for="stid">Student ID:</label>
-        <input type="number" id="stid" name="stid"><br><br>
+        <input type="number" id="stid" name="stid" pattern="^[0-9]+$" title="Please type your student ID." placeholder="Please type your student ID." minlength="10" maxlength="10"><br><br>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email"><br><br>
         <label for="birthday">Birthday:</label>
