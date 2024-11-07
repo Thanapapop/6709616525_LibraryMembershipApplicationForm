@@ -21,10 +21,12 @@ h1{
     text-shadow: black 4px;
     color: white;
     text-align: center;
+    font-family: 'Nerko One';
 }
 
 input{
     font-size: clamp(2px,3.5vw,16px);
+    font-family: 'Nerko One';
 }
 
 span{
