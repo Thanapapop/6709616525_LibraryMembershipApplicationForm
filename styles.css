@@ -38,7 +38,7 @@ input[type=submit] {
     color: #fff;
     border: 1px solid #eee;
     border-radius: 40px;
-    box-shadow: 5px 5px 5px #eee;
+    box-shadow: 1px #eee;
     text-shadow: none;
     font-size: 16px;
     height: 40px;
